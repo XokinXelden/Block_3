@@ -65,7 +65,7 @@ body {
 }
 #bitmap-hide:checked ~ * .no-mobile__variants {
   max-height: 400px;
-  transition: 1.5s ease;
+  transition: 0.5s ease;
 }
 #bitmap-hide:checked ~ * .content-lable::before {
   content: "Скрыть";
@@ -131,7 +131,7 @@ body {
 .no-mobile__variants {
   overflow: hidden;
   max-height: 140px;
-  transition: 1s ease-out;
+  transition: 0.5s ease;
 }
 .content-lable::before {
   content: "Показать все";
